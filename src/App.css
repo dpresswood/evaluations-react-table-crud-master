@@ -1,0 +1,126 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Users Form */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 650;
+  font-size: 38px;
+  margin-bottom: 0;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+}
+
+main {
+  width: 1000px;
+}
+
+/* Save Button */
+ /* .row1 input{ 
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: -540px;
+  font-size: 13pt;
+  height: 25px;
+}  */
+
+/* Delete Button */
+.deleteButton:disabled {
+  height: 28px;
+  padding: 0px 18px;
+  font-size: 10pt;
+  color: gray;
+  border: 1px solid gray;
+  background-color: none;
+  border-radius: 5px;
+  margin-left: 980px; 
+  line-height: .2;
+}
+
+/* Delete Button */
+.deleteButton {
+  padding: 1px 19px;
+  margin-left: 980px;
+  color: rgb(163, 10, 10);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(163, 10, 10);
+  border-radius: 5px; 
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px 25px 0px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.row2 {
+  display: flex;
+  flex-basis: 75%;
+  justify-content: space-between;
+  padding: 3px 8px;
+  border-bottom: 1px solid lightgray;
+  text-decoration: 0; 
+  position: relative;
+}
+
+.row2 p:last-child,
+.row2 h4:last-child {
+  width: 150px;
+}
+
+.row3 {
+  align-items: center;
+  position: relative;
+  top: -25px;
+  left: 520px;
+}
+
+/* Save Button */
+ .saveButton {
+  height: 28px;
+  padding: 2px 20px;
+  color: white;
+  background-color: #0f30c2d0;
+  border-color: #0f30c2d0;
+  border-radius: 5px;
+  margin-left: 980px;
+  margin-bottom: -130px;
+  line-height: .2;
+}
+
+.row2 input {
+ line-height: .5;
+  color: #0f30c2d0;
+}
+
+h4 {
+  color: gray;
+  font-weight: 500;
+  margin: 0;
+}
+
+h3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  margin-right: 430px;
+}
+
+p {
+  text-decoration: none;
+  width: 400px;
+}
+
