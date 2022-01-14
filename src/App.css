@@ -25,15 +25,6 @@ main {
   width: 1000px;
 }
 
-/* Save Button */
- /* .row1 input{ 
-  border: 1px solid;
-  border-radius: 5px;
-  margin-top: -540px;
-  font-size: 13pt;
-  height: 25px;
-}  */
-
 /* Delete Button */
 .deleteButton:disabled {
   height: 28px;
