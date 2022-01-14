@@ -60,6 +60,7 @@ main {
 .row2 {
   display: flex;
   flex-basis: 75%;
+  align-items: center;
   justify-content: space-between;
   padding: 3px 8px;
   border-bottom: 1px solid lightgray;

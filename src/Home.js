@@ -37,7 +37,7 @@ return  (
       <div className="row1"
         style={{border: 0}}>
       <button className= "deleteButton"
-      
+
         onClick={handleSubmit}  disabled={!emails.length}
         style={{
           marginBottom: -125,
@@ -61,7 +61,6 @@ return  (
       <div className="row2">
        
         <input 
-          style={{ marginTop: "25px", color: "black"}}
             type="checkbox" 
             value={user}
             onChange={ e => handleCheck(e, user.email)}
